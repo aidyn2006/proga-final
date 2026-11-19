@@ -7,6 +7,11 @@ Analysis of orders, delivery delays, seller performance and customer cohorts on 
 [Olist Brazilian E-commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) dataset (9 related tables,
 ~100K orders, 1M geolocation rows). Focus: multi-table JOINs and cohort retention in SQL.
 
+## Report and presentation
+
+- Written report: [docs/Olist_Report.pdf](docs/Olist_Report.pdf) ([.docx](docs/Olist_Report.docx))
+- Presentation: [docs/Olist_Presentation.pptx](docs/Olist_Presentation.pptx)
+
 ## Run
 
 **Python 3.10-3.12** (3.13 is not supported: `numpy==1.26.4` and `pyarrow==17.0.0` have no wheels for it; the code uses `dict | None` syntax, which needs 3.10+). Works in Google Colab (Python 3.12).
