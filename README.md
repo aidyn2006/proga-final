@@ -9,6 +9,8 @@ Analysis of orders, delivery delays, seller performance and customer cohorts on 
 
 ## Run
 
+**Python 3.10-3.12** (3.13 is not supported: `numpy==1.26.4` and `pyarrow==17.0.0` have no wheels for it; the code uses `dict | None` syntax, which needs 3.10+). Works in Google Colab (Python 3.12).
+
 ```bash
 python -m venv .venv && .venv\Scripts\activate      # Windows
 pip install -r requirements.txt
