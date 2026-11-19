@@ -35,6 +35,8 @@ Menu order: 1 download -> 2 optimise/Parquet -> 3 audit -> 4 build DB -> 5/6/7/8
 
 ## ER diagram
 
+![ERD](outputs/figures/erd.png)
+
 ```mermaid
 erDiagram
     zip_codes ||--o{ customers : "zip_prefix"
