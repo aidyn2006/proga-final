@@ -1,0 +1,4 @@
+model,f1_late,precision_late,recall_late,roc_auc,fit_s,predict_s,model_size_mb,tn,fp,fn,tp,train_rows,test_rows,late_share_test
+Baseline (majority class),0.0,0.0,0.0,0.5,0.0,0.001,0.0,18273,0,1021,0,77176,19294,0.0529
+Logistic Regression,0.1646,0.0915,0.8188,0.7163,1.37,0.048,0.01,9975,8298,185,836,77176,19294,0.0529
+Random Forest,0.0982,0.0693,0.1685,0.5834,10.88,0.203,13.41,15963,2310,849,172,77176,19294,0.0529

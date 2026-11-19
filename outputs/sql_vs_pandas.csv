@@ -1,0 +1,2 @@
+sql_time_s,pandas_time_s,pandas_table_load_s,results_match,rows
+1.6978,0.2599,1.0295,True,24

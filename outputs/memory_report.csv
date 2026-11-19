@@ -1,0 +1,10 @@
+table,rows,mem_before_mb,mem_after_mb,saving_pct
+customers,99441,26.59,16.39,38.3
+geolocation,1000163,129.38,15.09,88.3
+order_items,112650,29.54,15.03,49.1
+order_payments,103886,16.23,8.72,46.3
+order_reviews,99224,27.77,23.63,14.9
+orders,99441,24.66,19.25,21.9
+products,32951,6.3,3.46,45.0
+sellers,3095,0.59,0.31,46.9
+category_translation,71,0.01,0.01,0.0

@@ -1,0 +1,10 @@
+table,csv_mb,parquet_mb,csv_read_s,parquet_read_s,size_ratio,speedup
+customers,8.62,6.75,0.239,0.107,1.28,2.23
+geolocation,58.44,10.28,0.719,0.054,5.68,13.31
+order_items,14.72,5.8,0.313,0.084,2.54,3.73
+order_payments,5.51,3.67,0.158,0.048,1.5,3.29
+order_reviews,13.78,9.01,0.505,0.13,1.53,3.88
+orders,16.84,10.02,0.592,0.096,1.68,6.17
+products,2.27,1.36,0.048,0.022,1.67,2.18
+sellers,0.17,0.13,0.008,0.006,1.31,1.33
+category_translation,0.0,0.0,0.002,0.003,,0.67

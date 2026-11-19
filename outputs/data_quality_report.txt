@@ -1,0 +1,35 @@
+[customers] rows=99,441 dup_rows=0
+[geolocation] rows=1,000,163 dup_rows=262147
+[order_items] rows=112,650 dup_rows=0
+[order_payments] rows=103,886 dup_rows=0
+[order_reviews] rows=99,224 dup_rows=0
+    missing review_comment_title: 87,656 (88.3%)
+    missing review_comment_message: 58,247 (58.7%)
+[orders] rows=99,441 dup_rows=0
+    missing order_approved_at: 160 (0.2%)
+    missing order_delivered_carrier_date: 1,783 (1.8%)
+    missing order_delivered_customer_date: 2,965 (3.0%)
+[products] rows=32,951 dup_rows=0
+    missing product_category_name: 610 (1.9%)
+    missing product_name_lenght: 610 (1.9%)
+    missing product_description_lenght: 610 (1.9%)
+    missing product_photos_qty: 610 (1.9%)
+    missing product_weight_g: 2 (0.0%)
+    missing product_length_cm: 2 (0.0%)
+    missing product_height_cm: 2 (0.0%)
+    missing product_width_cm: 2 (0.0%)
+[sellers] rows=3,095 dup_rows=0
+[category_translation] rows=71 dup_rows=0
+--- logical checks ---
+  delivered order without delivery date: 8
+  delivery date before purchase date: 0
+  approved before purchase: 0
+  carrier date before approval: 1,359
+  non-delivered order with delivery date: 6
+  order without any item: 775
+  item price <= 0: 0
+  negative freight: 0
+  payment value <= 0: 9
+  review score outside 1..5: 0
+  duplicate review_id: 814
+  order_id in items but not in orders: 0
